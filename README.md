@@ -1,32 +1,52 @@
-# ClassAct — Python + Streamlit + SQLite
+# Student Grade Manager
 
-A Streamlit web app for student records and grading, using SQLite to persist data.
+**ClassAct**
 
-## Requirements
-- Python 3.10 or newer
-- pip
+ClassAct is designed to help teachers organize student records, manage subjects, record grades, and review academic performance through reports.
 
-## Run on Windows
-1. Extract this ZIP file.
-2. Open Command Prompt or PowerShell in the extracted `ClassAct_Streamlit` folder.
-3. Install packages:
-   ```bash
-   py -m pip install -r requirements.txt
-   ```
-4. Start the app:
-   ```bash
-   py -m streamlit run app.py
-   ```
-5. Streamlit will open a local browser tab. If it does not, visit http://localhost:8501.
+## Tool Versions
 
-On macOS/Linux, use `python3 -m pip install -r requirements.txt` and `python3 -m streamlit run app.py`.
+- [x] Python: 3.11.0
+- [x] Git: 2.54.1.windows.1
+- [x] Database: Included in the project
 
-## Database
-- SQLite database is created automatically as `classact.db` next to `app.py`.
-- Student details, subjects, grade bands, and grades persist between sessions.
-- Sample records are inserted only when the database has no students.
-- Reports can be exported to CSV.
+## Task Lists
 
-## Notes
-- This is a local single-user starter project; it does not include authentication, cloud hosting, multi-user permissions, or automatic backups.
-- The starter grading bands were interpreted from the supplied screenshot. Verify official grade boundaries with your school before relying on them.
+- [x] Class Diagram
+- [x] User Journey
+- [x] Conceptual Framework
+- [x] Feature 1 - Dashboard
+- [x] Feature 2 - Student Management
+- [x] Feature 3 - Gradebook
+- [x] Feature 4 - Reports
+
+## Main Features
+
+### Feature 1 - Dashboard
+- [x] Provides a quick overview of the grade management system.
+- [x] Shows summary information for the system.
+
+### Feature 2 - Student Management
+- [x] Add student records.
+- [x] View student records.
+- [x] Edit and manage student information.
+
+### Feature 3 - Gradebook
+- [x] Record student grades by subject.
+- [x] View and update grades.
+- [x] Keep academic records organized.
+
+### Feature 4 - Reports
+- [x] Review student grade summaries.
+- [x] View academic performance reports.
+- [x] Make grade information easier to review.
+
+## Feature Status
+
+| Shortcut | Feature | Status |
+| --- | --- | --- |
+| Feature 1 | Dashboard | Completed |
+| Feature 2 | Student Management | Completed |
+| Feature 3 | Gradebook | Completed |
+| Feature 4 | Reports | Completed |
+
